@@ -2,6 +2,7 @@
 Steeleye Assignment Submission
 
 1. Explain what the simple List component does.
+
    This list component takes an array of items as a prop and renders a list of SingleListItem components, one for each item in the array. When the list item is clicked, it calls the onClickHnadler prop with the index prop as an argument that changes the background-color of the single list item from red to green.
 
 2. What problems / warnings are there with code?
